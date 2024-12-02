@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="data/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="data/favicon/favicon-16x16.png">
+    <!--<link rel="manifest" href="site.webmanifest">-->
+    <link rel="mask-icon" href="data/favicon/safari-pinned-tab.svg" color="#35d37d">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Стили -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../data/css/index.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <div class="professionalism">
+                    <div class="professionalism__title-wrap">
+                        <span class="professionalism__year">2023</span>
+                        <span class="professionalism__title">ПРОФЕССИОНАЛИТЕТ</span>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/bricks.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/tent.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/parallelepiped.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/bus.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/ship.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/circle.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/mountain.svg" alt="img"></a></li>
+                            <li class="list__item"><a href="#" class="list__link"><img src="data/img/header_nav_icons/leaflet.svg" alt="img"></a></li>
+                        </ul>
+                    </nav>
+                    <!-- ПЕРЕНЕСИТЕ ЭТО В ОСНОВНУЮ НАВИГАЦИЮ -->
+                </div>
+                <!-- /professionalism -->
+    
+                <div class="header-title-wrap">
+                    <h2 class="header-title">МГГТК ФГБОУ ВО «АГУ»</h2>
+                    <p class="header__subtitle">Образовательный кластер «Образовательный центр индустрии туризма и сферы услуг Республики Адыгея»</p>
+                </div>
+    
+                <div class="logo-wrap">
+                    <img src="data/img/logo/logo.svg" alt="logo" class="logo">
+                </div>
+                
+                <div class="home" style="height: 29px; width: 31px;">
+                    <a href="../index.html"><img src="./data/img/home.svg" alt="go home"></a>
+                 </div>
+                
+                
+                <button class="burger-btn">
+                    <img src="data/img/burger.svg" alt="logo" class="burger-img">
+                    <img src="data/img/burger-dark-mode.svg" alt="logo" class="burger-dark-img hide">
+                </button>
+
+                <div class="right-side-menu">
+                    <button class="burger-btn-close">Закрыть</button>
+                    <div class="right-side-menu__block">
+                       <a class="right-side-menu__text" href="./Регистрация/index.html" style="cursor: pointer;">Регистрация</a>
+                   </div>
+                    <div class="right-side-menu__block">
+                        <p class="right-side-menu__text">Включить / Выключить темную тему</p>
+                        <label class="switch-button" for="switch">
+                            <div class="switch-outer">
+                            <input id="switch" type="checkbox" class="dark2">
+                            <div class="button">
+                                <span class="button-toggle"></span>
+                                <span class="button-indicator"></span>
+                            </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="form_wrap">
+        <form action="" class="form">
+            <h1 class="form__title">Регистрация</h1>
+            <div class="form__group">
+                <input type="text" class="form__input"  placeholder=" ">
+                <label for="" class="form__label">Логин</label>
+            </div>
+            <div class="form__group">
+                <input type="text" class="form__input"  placeholder=" ">
+                <label for="" class="form__label">Фамилия</label>
+            </div>
+            <div class="form__group">
+                <input type="text" class="form__input"  placeholder=" ">
+                <label for="" class="form__label">Имя</label>
+            </div>
+            <div class="form__group">
+                <input type="password" class="form__input" placeholder=" ">
+                <label for="" class="form__label">Пароль</label>
+            </div>
+    
+            <button class="form__button">Создать аккаунт    </button>
+            <div style="height: 1px; width: 100%; background-color: #e0e0e0; border-radius: 6px; margin: 15px 0;"></div>
+            <a class="form__button3" href="../Вход/index.html">Есть аккаунт? Войти</a>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__text">ЦИФРОВОЙ ОБРАЗОВАТЕЛЬНЫЙ КОНТЕНТ </div>
+    </footer>
+
+    <script src="../data/script/burger_script.js"></script>
+    <script src="data/script/dark_theme_script.js"></script>
+
+    <div class="tent tent-1"></div>
+    <div class="tent tent-2"></div>
+    <div class="tent tent-3"></div>
+    <div class="tent tent-4"></div>
+</body>
+</html>
